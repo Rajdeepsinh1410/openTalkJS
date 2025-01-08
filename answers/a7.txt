@@ -1,0 +1,80 @@
+**API Documentation**
+
+**Overview**
+================
+
+This API provides a set of endpoints for managing books in a library. The API uses JSON data and HTTP requests to interact with the server.
+
+**Endpoints**
+-------------
+
+### GET /books
+
+*   Retrieves a list of all books in the library.
+*   **Response:** A JSON array containing book objects, each with the following properties:
+    *   `id`: Unique identifier for the book (integer)
+    *   `title`: Title of the book (string)
+    *   `author`: Author of the book (string)
+    *   `publisher`: Publisher of the book (string)
+    *   `year`: Year of publication (integer)
+*   **Request Headers:** None
+*   **Request Body:** None
+
+### GET /books/:id
+
+*   Retrieves a specific book by its ID.
+*   **Response:** A JSON object containing book details, with the following properties:
+    *   `id`: Unique identifier for the book (integer)
+    *   `title`: Title of the book (string)
+    *   `author`: Author of the book (string)
+    *   `publisher`: Publisher of the book (string)
+    *   `year`: Year of publication (integer)
+*   **Request Headers:** None
+*   **Request Body:** None
+
+### POST /books
+
+*   Creates a new book in the library.
+*   **Response:** A JSON object containing the newly created book's ID, with the following properties:
+    *   `id`: Unique identifier for the book (integer)
+    *   `title`: Title of the book (string)
+    *   `author`: Author of the book (string)
+    *   `publisher`: Publisher of the book (string)
+    *   `year`: Year of publication (integer)
+*   **Request Headers:** None
+*   **Request Body:**
+    ```
+{
+  "title": "Book Title",
+  "author": "Author Name",
+  "publisher": "Publisher Name",
+  "year": 2020
+}
+```
+
+### PUT /books/:id
+
+*   Updates an existing book in the library.
+*   **Response:** A JSON object containing updated book details, with the following properties:
+    *   `id`: Unique identifier for the book (integer)
+    *   `title`: Title of the book (string)
+    *   `author`: Author of the book (string)
+    *   `publisher`: Publisher of the book (string)
+    *   `year`: Year of publication (integer)
+*   **Request Headers:** None
+*   **Request Body:**
+    ```
+{
+  "title": "Updated Title",
+  "author": "Author Name",
+  "publisher": "Publisher Name",
+  "year": 2021
+}
+```
+
+### DELETE /books/:id
+
+*   Deletes a specific book from the library.
+*   **Response:** None (no response is returned)
+*   **Request Headers:** None
+*   **Request Body:** None

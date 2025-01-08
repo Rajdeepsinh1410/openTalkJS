@@ -1,0 +1,48 @@
+**Bug Report Template**
+
+**Bug ID:** [Insert unique identifier for the bug]
+**Title:** [Briefly describe the issue]
+
+**Summary:**
+A [type of device/platform] is experiencing an error with [specific feature/functionality]. The problem arises when [insert specific scenario or condition that triggers the issue].
+
+**Steps to Reproduce:**
+
+1. Pre-requisites:
+	* Device/Platform: [Insert type of device/platform]
+	* Operating System: [Insert operating system version]
+2. Steps to reproduce the issue:
+	* [Insert step-by-step instructions on how to reproduce the issue]
+
+**Expected Result:** The expected result for this scenario is [insert expected outcome].
+
+**Actual Result:** The actual result observed is [insert actual outcome].
+
+**Error Message/Screen Shot:**
+[Insert error message or a screenshot of the issue if applicable]
+
+**Environment Details:**
+
+* Device Model: [Insert device model]
+* Operating System Version: [Insert operating system version]
+* Browser/App Version: [Insert browser/app version]
+
+**Additional Notes:**
+[Insert any additional information that may help in resolving the issue, such as recent changes made or any other relevant details]
+
+**Priority Level:** [Insert priority level of the bug, e.g., High, Medium, Low]
+
+**Category:** [Insert category of the bug, e.g., UI, Performance, Network]
+
+**Attachments:**
+[Insert any attachments related to the bug report, such as error logs, screenshots, or videos]
+
+**Submitter's Information:**
+
+* Name: [Insert name of the submitter]
+* Email: [Insert email address of the submitter]
+* Phone Number: [Insert phone number of the submitter (if applicable)]
+
+**Submission Date:** [Insert date and time of submission]
+
+**Reporter's Signature:**
